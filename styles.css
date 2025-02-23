@@ -11,7 +11,13 @@ body {
   scroll-behavior: smooth;
 }
 
-.section-1 {
+.column h1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.section-1,
+.section-4 {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -109,10 +115,15 @@ div .right {
 
 .column h1 {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+}
+
+.headerLeft {
+  display: flex;
+  justify-content: left;
 }
 
 .flex {
@@ -124,10 +135,11 @@ div .right {
 }
 
 #aboutPara {
-  text-align: center;
+  text-align: left;
   font-weight: 500;
   line-height: 16px;
   width: 300px;
+  padding: 20px;
   font-size: 20px;
   line-height: 30px;
 }
@@ -171,9 +183,14 @@ div .right {
 }
 
 .section-3-container p {
-  font-size: 36px;
+  font-size: 24px;
 
   font-weight: light;
+}
+
+#styleUnder {
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .section-3 blockquote {
@@ -187,12 +204,31 @@ div .right {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
   color: white;
   background-color: #1f2937;
   padding-bottom: 20px;
 }
 
+.topicMap h1 {
+  color: #fff;
+  display: flex;
+  margin-left: 400px;
+}
+
+.topicMap p {
+  text-align: center;
+}
+
+.topic {
+  width: 700px;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
 /* .cta-container {
 
 } */
