@@ -11,6 +11,15 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Align */
+
+#aboutMe,
+#experts {
+  margin: 0 auto;
+  padding: 40px 10%;
+  max-width: 1200px;
+}
+
 .column h1 {
   display: flex;
   justify-content: flex-start;
@@ -285,4 +294,19 @@ a::before {
 }
 a:hover::before {
   transform: scaleX(1);
+}
+
+/* article link */
+.link {
+  text-decoration: underline;
+  color: #06c;
+}
+
+.link:hover {
+  color: #06c;
+  text-decoration: none;
+}
+
+.link:before {
+  text-decoration: none;
 }
